@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         inicializar();
-        mensaje.setText("sicorrio");
+        mensaje.setText("era el disco duro");
     }
     private void inicializar(){
         mensaje=(TextView)findViewById(R.id.mensaje);
